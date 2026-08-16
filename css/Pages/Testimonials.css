@@ -1,0 +1,88 @@
+#Testimonials {
+  height: 500px;
+  overflow: hidden;
+}
+
+#Testimonials::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+#Testimonials video {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+}
+
+#Testimonials .title {
+  position: relative;
+  z-index: 2;
+}
+#Testimonials .title h2 {
+  color: #fff;
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+#Testimonials .title h2::after {
+  content: "";
+  width: 70%;
+  height: 3px;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  background-color: var(--bs-warning);
+  transform: translateX(-50%);
+  margin-top: 14px;
+}
+
+#Testimonials .title p {
+  width: 60%;
+  margin: auto;
+}
+
+#Testimonials video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#Testimonials .content {
+  position: relative;
+  z-index: 6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#Testimonials .content .box .item {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(44, 83, 100, 0.5), rgb(32, 58, 67, 0.5), rgba(15, 32, 39, 0.5));
+  padding: 20px 0px;
+  margin: 0px 10px;
+  width: 85%;
+  margin: auto;
+}
+#Testimonials .content .box .item .image {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 10px;
+}

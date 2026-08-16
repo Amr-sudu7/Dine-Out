@@ -1,0 +1,47 @@
+#Chefs {
+  background-image: var(--bg-color);
+}
+#Chefs .box .item {
+  width: 80%;
+  margin: auto;
+}
+
+#Chefs .box .item .image {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+}
+#Chefs .box .item .image img {
+  width: 100%;
+  display: block;
+  transition-duration: 0.5s;
+}
+#Chefs .box .item .content {
+  width: 100%;
+  border-radius: 10px;
+  background-image: var(--bg-color);
+  transform: scale(1.13) translateY(-50%);
+  padding: 5px 15px;
+  color: #c1c1c1;
+  transition: 0.5s;
+}
+#Chefs .box .item .content p {
+  color: var(--bs-warning);
+  transition-duration: 0.5s;
+}
+
+#Chefs .box:hover .item .content {
+  transform: scale(1.13) translateY(-120%);
+  background-image: none;
+  background-color: var(--bs-warning);
+}
+
+#Chefs .box:hover .item .content p,
+#Chefs .box:hover .item .content h6 {
+  color: #fff;
+}
+
+#Chefs .box:hover .item .image img {
+  transform: skewY(4deg);
+}

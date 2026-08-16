@@ -1,0 +1,58 @@
+@keyframes spin {
+  from {
+    transform:  rotate(0deg) ;
+  }
+  to {
+   transform:  rotate(-360deg) ;
+
+  }
+}
+@keyframes spin2 {
+  from {
+    transform: translate(-50% , -50%)  rotate(0deg) ;
+  }
+  to {
+   transform: translate(-50% , -50%)  rotate(360deg) ;
+
+  }
+}
+
+@keyframes up-and-down {
+  from {
+    transform: translateY(-5%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+
+@keyframes bike {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(0);
+    }
+
+    20% {
+        opacity: 1;
+        transform: translateX(0) translateY(-30px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(0) translateY(0);
+    }
+
+    70% {
+        opacity: 0;
+        transform: translateX(200%) translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(200%) translateY(0);
+    }
+}
+
+
+

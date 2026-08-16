@@ -1,0 +1,332 @@
+@media (max-width: 1300px) {
+  a.anchor-yellow {
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(1)::before {
+    background-size: 340%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(1).active::before {
+    background-size: 380%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption .content p {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .carousel-control-prev {
+    width: 40px;
+    height: 40px;
+    right: 90px;
+    bottom: 20px;
+  }
+  .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    right: 30px;
+    bottom: 20px;
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(2) .content .part1 .item .image {
+    width: 40%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(2).active .content .part1 .item .image {
+    transform: translateY(60%);
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(3) .part2 .item {
+    font-size: 12px;
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(3) .part2 .item .icons {
+    width: 100%;
+  }
+
+  #About.box .item img {
+    width: 40px;
+    height: 40px;
+  }
+  #About .content p:nth-of-type(1) {
+    font-size: 18px;
+  }
+
+  #About .content a.anchor-yellow {
+    font-size: 15px;
+  }
+  #About .content .icons .icon {
+    column-gap: 10px;
+  }
+  #About .content .icons .icon h5 {
+    font-size: 16px;
+  }
+
+  #About.background .image::after {
+    font-size: 20px;
+  }
+
+  #Testimonials {
+    height: auto;
+    background-image: var(--bg-color);
+  }
+  #Testimonials video {
+    display: none;
+  }
+  #Testimonials .title h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  #Testimonials .title h2::after {
+    width: 30%;
+  }
+
+  #Testimonials .title p {
+    font-size: 12px;
+    width: 90%;
+  }
+
+  #Testimonials .content .box {
+    max-width: 300px;
+  }
+  #Testimonials .content .box .item {
+    width: 100%;
+  }
+
+  #Chefs .box .item {
+    width: 85%;
+  }
+  #Chefs .box .item .content {
+    width: 80%;
+    margin: auto;
+  }
+
+  #Book .col-md-6:first-child .item {
+    width: 100%;
+  }
+
+  #Menu .menu-tabs {
+    overflow-x: auto;
+    width: max-content;
+    flex-wrap: nowrap;
+    margin: auto;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+  a.anchor-yellow {
+    padding: 8px 22px;
+    font-size: initial;
+    font-weight: light;
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(1)::before {
+    background-size: 270%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(1).active::before {
+    background-size: 300%;
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption .content p {
+    font-size: 14px;
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(2) .content .part1 .item .image {
+    width: 35%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(2).active .content .part1 .item .image {
+    transform: translateY(50%);
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(3) .part2 .item {
+    font-size: 14px;
+  }
+
+  #About .content p:nth-of-type(1) {
+    font-size: 20px;
+  }
+  #Chefs .box .item {
+    max-width: 280px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+  header .carousel-inner .carousel-item:nth-of-type(1)::before {
+    background-size: 185%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(1).active::before {
+    background-size: 200%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption .content p {
+    width: 60%;
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(2) .content .part1 .item .box {
+    margin: auto;
+    width: 80%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(3) .part2 .item .icons img {
+    width: 30%;
+  }
+  #About .content p:nth-of-type(1) {
+    font-size: 24px;
+  }
+
+  #Testimonials .title h2 {
+    font-size: 28px;
+  }
+
+  #Testimonials .title p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  header .carousel-inner .carousel-item:nth-of-type(1)::before {
+    background-size: 145%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(1).active::before {
+    background-size: 160%;
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption .content p {
+    width: 50%;
+  }
+
+  .carousel-control-prev {
+    width: 50px;
+    height: 50px;
+    right: 130px;
+    bottom: 20px;
+  }
+  .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 20px;
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(2) .content .part1 .item .image {
+    width: 50%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(2).active .content .part1 .item .image {
+    transform: translateY(60%);
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(2) .content .part1 .item .box {
+    width: 100%;
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(3) .part1 .image {
+    width: 100%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(3) .part2 .item .icons img {
+    width: 50%;
+  }
+
+  #About .content p:nth-of-type(1) {
+    font-size: 20px;
+  }
+  #About .background .image {
+    height: 250px;
+  }
+  #Testimonials {
+    background-image: none;
+  }
+  #Testimonials video {
+    display: initial;
+  }
+
+  #Testimonials .title h2 {
+    font-size: 34px;
+  }
+
+  #Testimonials .title p {
+    font-size: 16px;
+    width: 80%;
+  }
+  #Testimonials .content .box .item h4 {
+    font-size: 18px;
+  }
+
+  #Chefs .box .item .content p {
+    font-size: 15px;
+  }
+  #Chefs .col-md-4.col-12:nth-of-type(3) .box .item .content p {
+    font-size: 13px;
+  }
+  #Chefs .box .item {
+    max-width: initial;
+    width: 100%;
+  }
+
+  #Menu .menu-item-body .rating i {
+    font-size: 9px;
+  }
+  #Menu .menu-tabs .nav-link {
+    flex: 0 0 auto;
+    padding: 15px 16px;
+  }
+
+  #Menu .menu-tabs .nav-link:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+
+  #Menu .menu-tabs .nav-link:last-child {
+    border-radius: 0 5px 5px 0;
+  }
+
+  #Menu .menu-tabs .nav-link::after {
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: 50%;
+    border: 10px solid transparent;
+    border-bottom-width: 0;
+    border-bottom-color: #fff;
+    transform: translateX(-50%);
+  }
+
+  #Menu .menu-tabs .nav-link.active::after {
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  header .carousel-inner .carousel-item:nth-of-type(1)::before {
+    background-size: 115%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(1).active::before {
+    background-size: 125%;
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(3) .part1 .image {
+    width: 80%;
+  }
+
+  header .carousel-inner .carousel-item:nth-of-type(3) .part2 .item .icons img {
+    width: 40%;
+  }
+
+  #Chefs .box .item {
+    width: 95%;
+  }
+  #Chefs .box .item .content p {
+    font-size: 20px;
+  }
+  #Chefs .col-md-4.col-12:nth-of-type(3) .box .item .content p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+  header .carousel-inner .carousel-item:nth-of-type(1)::before {
+    background-size: 100%;
+  }
+  header .carousel-inner .carousel-item:nth-of-type(1).active::before {
+    background-size: 110%;
+  }
+  #Chefs .box .item {
+    width: 80%;
+  }
+}
