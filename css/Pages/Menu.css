@@ -1,16 +1,20 @@
 #Menu {
   background-image: var(--bg-color);
 }
+.scroll::-webkit-scrollbar {
+  display: none;
+}
 #Menu .menu-tabs::-webkit-scrollbar {
   display: none;
 }
 #Menu .menu-tabs {
   justify-content: center;
+  align-items: start;
 }
 
 #Menu .menu-tabs .nav-link {
   position: relative;
-  padding: 12px 8px;
+  padding: 30px 16px;
   border: 1px solid #fff;
   border-radius: 0;
   background: radial-gradient(circle, #2c5364, #203a43, #0f2027);
@@ -34,11 +38,11 @@
 }
 
 #Menu .menu-tabs .nav-link:first-child {
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px 0 0 5px;
 }
 
 #Menu .menu-tabs .nav-link:last-child {
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 5px 5px 0;
 }
 
 #Menu .menu-tabs .nav-link img {

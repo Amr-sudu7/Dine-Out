@@ -1,7 +1,7 @@
+
 #Food-bar .box {
   background: radial-gradient(circle at center, #2c5364, #203a43, #0f2027);
   border: 1px #fff solid;
-  /* padding: 20px; */
   color: #fff;
 }
 
@@ -12,7 +12,14 @@
   width: 65px;
   height: 65px;
 }
-#Food-bar .row::-webkit-scrollbar {
+#Food-bar::-webkit-scrollbar {
+  display: none;
+}
+#Food-bar::-webkit-scrollbar-track {
+  display: none;
+}
+
+#Food-bar::-webkit-scrollbar-thumb {
   display: none;
 }
 

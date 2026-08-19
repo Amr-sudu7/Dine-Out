@@ -8,7 +8,8 @@
     background-size: 340%;
   }
   header .carousel-inner .carousel-item:nth-of-type(1).active::before {
-    background-size: 380%;
+    background-size: cover;
+    scale: 1.1;
   }
   header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption .content p {
     width: 90%;
@@ -43,6 +44,14 @@
     width: 100%;
   }
 
+  #Food-bar .box .item img {
+    width: 40px;
+    height: 40px;
+  }
+
+  #About .background .image {
+    height: 200px;
+  }
   #About.box .item img {
     width: 40px;
     height: 40px;
@@ -110,6 +119,17 @@
     flex-wrap: nowrap;
     margin: auto;
   }
+  #Menu .menu-tabs .nav-link {
+    padding: 15px 16px;
+  }
+
+  #Menu .menu-tabs .nav-link::after {
+    top: initial;
+    right: initial;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%) rotate(90deg);
+  }
 }
 
 @media (min-width: 371px) and (max-width: 1300px) {
@@ -121,9 +141,6 @@
 
   header .carousel-inner .carousel-item:nth-of-type(1)::before {
     background-size: 270%;
-  }
-  header .carousel-inner .carousel-item:nth-of-type(1).active::before {
-    background-size: 300%;
   }
 
   header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption .content p {
@@ -153,9 +170,6 @@
   header .carousel-inner .carousel-item:nth-of-type(1)::before {
     background-size: 185%;
   }
-  header .carousel-inner .carousel-item:nth-of-type(1).active::before {
-    background-size: 200%;
-  }
   header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption .content p {
     width: 60%;
   }
@@ -166,6 +180,9 @@
   }
   header .carousel-inner .carousel-item:nth-of-type(3) .part2 .item .icons img {
     width: 30%;
+  }
+  #About .background .image {
+    height: 300px;
   }
   #About .content p:nth-of-type(1) {
     font-size: 24px;
@@ -183,9 +200,6 @@
 @media (min-width: 769px) and (max-width: 1300px) {
   header .carousel-inner .carousel-item:nth-of-type(1)::before {
     background-size: 145%;
-  }
-  header .carousel-inner .carousel-item:nth-of-type(1).active::before {
-    background-size: 160%;
   }
 
   header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption .content p {
@@ -296,9 +310,6 @@
   header .carousel-inner .carousel-item:nth-of-type(1)::before {
     background-size: 115%;
   }
-  header .carousel-inner .carousel-item:nth-of-type(1).active::before {
-    background-size: 125%;
-  }
 
   header .carousel-inner .carousel-item:nth-of-type(3) .part1 .image {
     width: 80%;
@@ -322,9 +333,6 @@
 @media (min-width: 1181px) and (max-width: 1300px) {
   header .carousel-inner .carousel-item:nth-of-type(1)::before {
     background-size: 100%;
-  }
-  header .carousel-inner .carousel-item:nth-of-type(1).active::before {
-    background-size: 110%;
   }
   #Chefs .box .item {
     width: 80%;

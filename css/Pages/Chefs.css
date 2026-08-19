@@ -8,14 +8,15 @@
 
 #Chefs .box .item .image {
   border-radius: 10px;
-  overflow: hidden;
   width: 100%;
   margin: auto;
 }
 #Chefs .box .item .image img {
   width: 100%;
+  overflow: hidden;
   display: block;
   transition-duration: 0.5s;
+  border-radius: 10px;
 }
 #Chefs .box .item .content {
   width: 100%;
